@@ -1,0 +1,37 @@
+23 January 15
+Officially started the project. I'm hoping to finish this assignment this weekend to have more time for practicing for competition. Basically my plan is to have an array sorting program which will graphically display the sort happening in real time using lengths and colours to do so.
+
+Today during my spare I planned out what I want my program to do and so far I've created empty classes and right now I will code the main class and the display class.
+
+So I was able to define a colour class, make jframe and experimented with how the array will look on the screen.Now I will plan how the sorting in real time will work.
+
+10 Febuary 2015
+So, I'm back and ready to do this project. I planned out what I want to do, which is to have a program that reads in double values turns them into colours on the screen and step by step sorts them using one of the sorts I learned in the class. I'm keeping this project simple as I don't have a lot of time. Some additional features I'll add is the ability to save, load, scramble and insert elements into the array.
+
+So far I have planned te structure of the program(what classes and what methods each will have). And I added some more JButtons on the screen. I will work on the reading and writing to file now.
+
+I just finished the saving feauture, so you can save the array to a specified file by inputting a name into a dialog. Now I will add the load method.
+
+loading stuff - done!
+
+Now I will work on the part where the program converts the double array into the colour array. To do this I will find the smallest and biggest value in the array, this is where I will use a search method. Based on these 2 values I can get a range for which each value will have a colour value assigned to. Everything will be done in the sorter class, the display will simply take the array of colours and display them when called. So I'm going to make a createColourArray(). It's going to be called only after loading and adding new elements into array;
+
+11 feb 15
+I just finished the sorting method and my program displays the bubble sort on screen.
+
+Centering business is now finished, I created a few variables to help the paint method center the array on the screen. I didn't encounter many problems. I fixed a small bug when loading array. The new array was added into the old one resulting in array twice the size. All I had to do is before loading the array I removed all the elements.
+
+Now I will add the mixing method which will take an array and randomnly switch the elements around.
+
+I encountered a small problem when making this method. My program couldn't find the biggest value. After looking over all of the code I realized that I used else if which skipped the block of code. By getting rid of the else I got it to work and the display class displays the elements with ranging colours.
+
+I managed to add the mixup method and the insert method. I think I will add the search function. Tomorrow I will finish adding code that will display the sorting real time; (so much coding that I'm ending sentences with semicolons). I'm taking a break.
+
+12 feb 15
+I added yet another button to create an array of any size (1-100) to give the user ability to make an array. You can't specify the values in the elements though. I also got rid of the insert button and instead I added the replace button. So what it does is it searches for a specified element and then replaces it with another value. I added this feature so that I could implement a search algorithm to find elements in the list, but also so that user has ability to change the array.
+
+17 feb 15
+I fully documented the program. done.
+
+19 feb 15
+I spent some time today testing my program, making sure that there are no problems. I fixed a small error in the message, when you try to load an array and type in a file that doesn't exist it said "invalid name!" but I changed it to "file not found" which would make more sense. Other than that, I didn't find any problems.

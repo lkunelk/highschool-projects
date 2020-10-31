@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>WaveSimulator</label>
+	</settings>
+	<users>
+		<user>
+			<path>WaveSimulator.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>WaveSimulator.jcp</path>
+		</project>
+	</projects>
+</workspace>

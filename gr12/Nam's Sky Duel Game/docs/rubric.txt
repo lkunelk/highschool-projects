@@ -1,0 +1,54 @@
+APPLICATION
+--------------
+>1.create multiple objects of the same class
+>2.compare test cases to results(write solution to problems that pop up)
+>3.document code completely
+>4.some external documentation(manual, flowchart, pseudo, problem&solution report,project management, etc.)
+
+COMMUNICATION
+---------------
+>1.explain how array of objects benefits my program, include examples
+>2.use toString() in my classes
+
+K & U
+---------------
+>1.use .equals() in my class
+>2.using set() prevent invalid info entry
+>3.use private and public keyword
+>4.write pre and post condition for each method?
+
+THINKING
+---------------
+>1.use multiple classes efficiently
+>2.program is working
+>3.apply data encapsulation
+>4.explain how class notes or API helped solve problems
+>5.make test cases, explain how they will be used, what might be done if unexpected outcome occurs
+
+
+
+-----------------
+-----------------
+
+app
+1.-----
+2.-----
+3.-----
+4.-----
+
+comm
+1.-----
+2.-----
+
+K U
+1.-----
+2.-----
+3.-----
+4.-----
+
+thnkng
+1.-----
+2.-----
+3.-----
+4.-----
+5.-----

@@ -1,0 +1,22 @@
+Arrays of Object
+----------------
+In my program I am using an array of Colour objects. The Colour class (with 'u', not to be mistaken with java.awt.Color class) contains 3 integer values - hue, saturation and brightness. 
+
+My program doesn't actually read in colour info from a text file. Rather it reads in numbers and assigns them a colour based on their relative positions in the array. Since colour is a 3D value it can't be simply represented as 2D array. So to represent the colour I'm only working with the Hue value of the Colour class. Hue isn't exactly accurate way of representing the values of 2D array since it represents a colour wheel so the highest and lowest elements have the same colour. But hue is the only value that gives the elements an aesthetically pleasing look.
+
+When my program sorts the array, it will actually sort the Colour array, and not the array of doubles, based on the hue values. For that to be possible, in the Colour array I implemented the Comparable interface, so that I could use the compareTo() to compare 2 Colour objects. In this case I'm only comparing the hue values. The compareTo() returns -1 if the hue of the first colour is lower than the hue of the second colour, otherwise if it is bigger it returns 1. If the two hues are the same it returns 0.
+So in my program I will take a Colour object and compare it to the one next to it. If the compareTo() returns 1 then I switch the two else if it returns 1 or 0 I leave the two Colours as they are.
+
+Sequential vs Binary
+--------------------
+Binary search is much faster than sequential search. Its average case performance is O(log n) which means it's really fast. That's due to the fact that binary search cuts the list of elements in half each time it loops. The sequential search has an average case performance of O(n). This means that the time taken to find an element is proportional to number of elements. Since the sequential search looks at elements one by one it takes a lot more time to find the element than with the binary search.
+
+However we have to take into consideration the fact that in order to use the binary search the list must be sorted. This means that extra comparisons have to be made before the element can be found. Sorting the array itself would take more comparisons than a sequential search on average. For that reason there are certain situations when sequential search could be a better choice over binary search.
+
+So when should each algorithm used in what situation? Sequential search should be used when an array needs to be searched once. If searches have to be made multiple times it's better to sort it and then use binary search.
+
+Sorting algorithms
+------------------
+the four algorithms that we learned were: insertion sort, selection sort, bubble sort and quick sort. Obviously quicksort is the fastest out of 4. It has an average case performance of O(n log n). The slowest algorithm is the Bubble sort. Because it will make comparisons between all elements in the unsorted list giving it an average case performance of O(n^2). We're left with selection and insertion sort. Both have average case performance of O(n^2). However insertion sort is faster than selection sort, that is due to the fact that selection sort has to make comparisons with all elements in the unsorted list before it can insert the biggest element into the sorted part while insertion sort will take the current element and compare it to a number of elements but not all elements in the sorted array, before inserting it to its position. So on average the insertion sort will have to compare current element with half of the elements in the sorted list.
+
+Therefore the order of sorting algorithms from slowest to fastest is: bubble sort, selection sort, insertion sort, quicksort.

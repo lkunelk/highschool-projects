@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>ReverseTicTacToe</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>ReverseTicTacToe</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\ReverseTicTacToe.java</path>
+				<collapsedfolds>3339;3300;2173;1109;997;683;561;378;294;141;103;66;13;0</collapsedfolds>
+			</fileitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>src\ReverseTicTacToe.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+	</open_files>
+</workspace_user>

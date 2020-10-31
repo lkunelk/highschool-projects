@@ -1,0 +1,46 @@
+What will it do?
+-compares sequential to binary search 
+-you will have option on loading a file
+-you will have an option to generate a list of any length and write to file
+-the steps will be displayed
+
+structure:
+classes to make this work
+
+ColourSearch main class
+-----------------------
+know:
+- 2 colour array
+- update speed
+- steps
+
+does:
+- start() 
+
+
+quickSort class
+---------------
+know:
+- array to be sorted
+
+does:
+- sorts and return steps to sort   the
+
+panel class - displays the array
+---------------------------------
+know:
+- array to be sorted
+- int[] indexes which element is being worked on
+
+does:
+- paint()
+
+
+
+colour class
+------------
+know:
+- rgb hsv value
+
+does:
+- nothing

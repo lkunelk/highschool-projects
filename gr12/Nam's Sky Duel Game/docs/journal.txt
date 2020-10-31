@@ -1,0 +1,45 @@
+29 Sept 2014
+I officially set up the project and created game class for the sky duel game!
+right now I'm planning game mechanics and what features to add
+
+30 Sept 2014
+I did some more planning on game class, just to come to realization that that should be last class
+to think about. I need to concentrate on the level class and the plane class first!
+
+1 Oct 1014
+today i set up most of the classes, the variables and some methods. Plus I experimented with resizing ImageIcons. I planned out the level class and what its function will be.
+
+3 Nov 2014
+now I'm back after a long break (Mostly working on my cubot). Today at school I finished the game loop, so now it calls the update method 60 times per second. Now I encounter a problem. In the future I would like to have the planes rotate their images based on the direction they're going. But have no idea how. Currently I'm thinking of representing planes on screen as JLabels and somehow rotate the images inside them.
+
+5 min later
+Change of plans, afterdoing some research i will be using BufferedImage to draw the planes on the JPanel. Using affineTransform class I'm able to rotate the image so it's working well.
+
+4 Nov 2014
+Today, I added the keyboard class to read inputs and now I can control the planes! I fixed the sprite of the plane so that is't smaller and also so that it faces right so now it looks like it's actually flying. Also, I cleaned up the level class, got rid of the printing statements and extra code then added more documentation.
+
+6 Nov 2014
+Today, I added a feature that made sure that the planes will travel and change direction at the same rate no matter what the frame rate is.
+
+7 Nov 2014
+today, I added a feature to make planes turn back when they go off the screen. The Sprites were not centered so I added 2 variables, xCenter and yCenter to render the sprites of the plane in the middle of their coordinate as opposed to the top left corner
+
+8 nov 2014
+I just added toString method to the level and plane class and currently am using the method for tracing the program.
+
+9 nov 2014
+Today I began working on object collision part to check if bullets collided with the plane. So I came up with a pretty simple solution for doing detections using rectangles and points. The rectangle would represent the plane and the points, the bullets. However I quickly realized that the problem is more complicated than I thought. The rectangles will change directions so I can't simply use the method that I was thinking of
+
+So instead I thought maybe I could check the distance from each vertex of the rectangle to the point and based on that somehow see whether the point was inside the rectangle or not. And based on that it wouldn't matter what direction the rectngle was facing. To test my idea i made a simple test. I basically tested every point on the screen to see whether it would be considered to collide with the rectangle.And drew the area. This showed me the areas that the bullet would be considered to collision. Suprisingly, or not the area wasn't exactly rectangular but a little round.
+
+Nov 10 2014
+so after planning and and writing out pseudocode for my new collision method, I implemented it in code and did some testing. To my surprise the program worked the first time, so I will be using my new triangle collision method which works pretty fast. All I need to do now is define the hit areas of the plane as triangles.
+
+Implementing the hit areas prooved to be easier than I thought. To find what coordinates to use, I drew triangles on the plane in paint and mousing over the vertices I was able to read the coordinates. I took those coordinates and put them inside my plane class. Then I had to change my collision method to check for multiple triangles instead of 1. Here I came across some problems but already found solutions so after testing everything works. Now I will work on the bullet class and shooting method in the plane class.
+
+The bullet class is finished. I just copied most of the code from the Plane class. I had to include new loops in level class to include the bullets but now its working. Now I will test the collision method with some real bullets!
+
+26 nov 14
+I looked over the code and played the game, and have to say i'm really pleased with the program.I don't have much time to work on it now, but I'll probably add some code to it once in a while. Today, for instance I created the planeAI class, which will be pretty hard to make.
+
+I also added a feature that displays the name of the plane above it as it flies so you can differentiate between the planes.

@@ -1,0 +1,3 @@
+have an option to read from file
+sort compare the 5 sorts
+display them

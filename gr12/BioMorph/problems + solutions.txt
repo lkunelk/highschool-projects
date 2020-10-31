@@ -1,0 +1,7 @@
+problem: what is the easiest and simplest way to draw the organism so that it's simmetrical. The problem arises because the way our genes work - every right branch on the same level is affected by the same gene likewise every left branch on the same level is affected by another gene. This results in a non-symmetrical look.
+
+solution: in order to fix this issue. What i did was instead of creating new variables for the branches to know when to reflect around their axis, I made the program calculate only the right nodes of the organism, and when the organism is drawn all I do is reflect the right nodes around the axis to give the symmetrical look.
+
+problem: whenever reproduce function was used the 3 children appeared to be the same.
+
+solution: after examining the code, I realized that the 3 children used the same reference from the parent genes. Whenever we reproduced the 3 children we would give them the parent's original genes with some alteration. However we were passing a refernece to an object. Which means that all 3 children had gene variables pointing to the same array which explains why they looked the same. To solve the problem for every child we created a new array and filled it with the same values as the parent's gene by using the .clone()

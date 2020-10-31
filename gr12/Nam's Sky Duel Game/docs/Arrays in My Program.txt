@@ -1,0 +1,11 @@
+My program is very dependent on arrays. I use them to store all the objects, such as planes and bullets that have to be displayed on the screen. In my program arrays are very useful because they organize my variables into one big array which is easier to handle than a big pile of plane and nullet variables. The arrays also make it very easy to access the methods of the objects. All I have to do is put the array in a loop as opposed to calling each method seperately.here's the code where I did that:
+
+for(Plane p: planes){
+	p.update();
+	...
+}
+
+instead of having to call the update method seperately for each plane, I used an enhanced for loop
+to do the task in just 2 lines!
+
+another way that arrays are useful and actually necessary is that in my game at any given point of time I don't know how many bullet objects will be in the game. By using arrays, I don't have to worry about that because I can add as many bullets as I want to.

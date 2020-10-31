@@ -1,0 +1,1 @@
+I worked on one of the senior problems from last year for ccc S3, I reminded myself how to implement scanners and how to use stacks

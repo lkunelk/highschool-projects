@@ -1,0 +1,5 @@
+test 1
+when a plane goes off screen I want it to come back.I want it to come back at the same angle at which it exited(so as if it bounced of a wall). To do this I simply check the plane's coordinates and when they go off screen I just call the setDirection() in Plane class to change its direction. 
+
+test 2
+when a plane goes off screen I want it to not come back. Instead, it shall count as a KO and a point for the opposing plane the plane shall respawn later.

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>NamMadlib</label>
+	</settings>
+	<users>
+		<user>
+			<path>NamMadlib.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>NamMadlib.jcp</path>
+		</project>
+	</projects>
+</workspace>

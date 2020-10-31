@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Battleship</label>
+	</settings>
+	<users>
+		<user>
+			<path>Battleship.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Battleship.jcp</path>
+		</project>
+	</projects>
+</workspace>

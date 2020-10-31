@@ -1,0 +1,18 @@
+pseudo code for findWay()
+
+the findWay() will be used for seeing whether the mice are trapped by the cats long body. Using recursion the method will look at every possible way from the mouse's position and see whether it will be able to reach the edge of the board. If it can't due to the cat's body blocking the way, the mouse is set to be killed and player gets 2 points.
+
+pre condition: boolean array of board with location of the cat marked true
+
+boolean findWay(int x, in y)
+
+	set the current position as visited
+
+	if we are at the edge of the board return true
+
+	try going up and findway() from the new position
+	try goind down and findway() from the new position
+	try going left and findway() from the new position
+	try going right and findway() from the new position
+
+	if no way is found return false

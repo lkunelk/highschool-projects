@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>AnimalsOfCanada</label>
+	</settings>
+	<users>
+		<user>
+			<path>AnimalsOfCanada.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>AnimalsOfCanada.jcp</path>
+		</project>
+	</projects>
+</workspace>

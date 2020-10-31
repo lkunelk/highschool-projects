@@ -1,0 +1,9 @@
+4 April 2015
+I finally start on the project. I will be making a a snake game, but instead of the snake it will be a longcat (it's a funny meme on the internet that Thomas pointed out to me). I thought about making the game unique, and came with an idea yesterday that the food (mice in this case) would move around the map, and to catch it you can either eat it head on or trap it by surrounding it with the cat's long body. I think it's going to be an interesting game, so I'm pretty excited to make it. Right now I will plan and decide what are the parts that will make this game work. All of that, I will write up in the planning file.
+
+So I got the general plan of how things will work together.And I created all the classes. I borrowed a few classes from my previous game - sky duel, but have to modify them a bit for this project.
+
+5 April
+So I got stumped by a problem. I was typing out big amounts of codes but at the end when I tried to display the cat on the screen - ERROR! I looked and tried everything but the way the pictures were displayed on the screen was really odd. Only a small strip of the picture was displayed on the left side while everything else was blank. Not knowing what to do I just decided to rewrite the Level class again making sure to test on each step. Which brings me to now.
+
+Currently I have the cat displayed on the screen and you can take control of it. Everything is working fine. There is a small glitch with the tail, where as it turns it will face the wrong direction.          

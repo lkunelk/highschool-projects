@@ -1,0 +1,59 @@
+Plans for sky duel game
+--------------------------
+
+most necessary features to make program work:
+- 2 player
+- only 4 buttons: up, down, shoot, special
+- if plane goes out of screen then it is forced to come back
+
+objects in this game:
+-Menu - sets up everything, frames, panels, level, etc
+-keyboard - stores all keys that are pressed for other classes to make decision
+-level - displays background, holds and displays objects to the screen, stores scores
+-plane - the plane, nothing more to say
+-bullet - bullet that plane will shoot
+
+test cases:
+plane flies off to right - plane's direction is flipped so it comes back
+bullets when touch the plane disapear and plane looses health
+
+Plane class
+-----------
+things it knows
+ImageBuffer im
+double x, y;
+double speed;
+double direction
+int xCenter, yCenter
+int xGunBarrel, yGunBarrel;
+
+things it does
+update() //updating position
+
+Level Class
+-----------
+things it knows
+int updates per second
+array of planes in game
+array of bullets in game
+
+start() //starts game, contains the game loop which call update and render per time
+update() //redraws, calls all objects on the screen to update their position
+render() //draws objects on the screen
+checkForCollision() //checks if bullets collided with plane
+
+Menu Class
+----------
+state
+int updates
+int height, width
+Keyboard object
+JFrame object
+
+
+Things to test:
+- test movements of the plane
+- test that update() runs 60 times per second
+- test collision with bullets
+- test that plane returns if it exits the screen
+- 

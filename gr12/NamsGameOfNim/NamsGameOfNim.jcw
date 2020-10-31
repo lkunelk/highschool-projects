@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>NamsGameOfNim</label>
+	</settings>
+	<users>
+		<user>
+			<path>NamsGameOfNim.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>NamsGameOfNim.jcp</path>
+		</project>
+	</projects>
+</workspace>

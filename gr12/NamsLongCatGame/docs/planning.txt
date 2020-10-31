@@ -1,0 +1,32 @@
+things the program will do:
+-----------------------------------
+- menu: play, instruction, exit
+- game itself
+
+
+things the game will do:
+----------------------------
+- use arrow keys to move longcat(like snake game)
+- mice will appear from off the side and move randomly, if they hit the wall they will run randomly in other direction
+- directly eat the mouse or surround it to capture it and get points
+- display the long cat depending on where its going. So like when it's turning corners, its body has to be bent
+- display score
+- have a highscore
+
+
+
+problem(s) to solve:
+-------------------------
+- how to find out if the mice are trapped by the cat, in other words whether the point(shich represents the mouse) is inside the polygon defined by the nodes of the snake
+
+
+
+Classes and how they will function:
+-------------------------------------
+- Game - the main class, creates jframe and sets up size of the board
+- level - has the update loop to update positions
+- Screen - displays menu, display board
+- longcat - contain the head node
+- node - body part of the long cat
+- mouse - the food of longcat, will move randomly, spawned by the level class
+- keyboard class to get user input
